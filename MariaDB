@@ -1,0 +1,14 @@
+mysql -h [IP/URL] -u [username] -p [password]
+# Default MariaDB allows for "root" username login with no password
+
+SHOW DATABASES;
+# Show a list of aall databases
+
+USE [database];
+# Pivot into Database to review
+
+SHOW tables;
+# Show list of tables in the database
+
+SELECT * FROM [table name];
+# See all items in table specified

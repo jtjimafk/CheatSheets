@@ -1,3 +1,9 @@
-nmap -sS -p- --min-rate 5000 [IP] -- TCP SYN All Ports 
--sV -- Verbose
+e.g. nmap -sS -p- --min-rate 5000 [IP] -- TCP SYN All Ports 
+
+Commands:
+-sV -- Version
 -sT -- Non-root
+-sC -- Use default scripts
+
+min-rate XXXX -- Send packets no slower than X
+max-rate XXXX -- Send packets no faster than X

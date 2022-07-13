@@ -1,0 +1,13 @@
+Default Port: 6379
+Service: redis
+
+Commands
+-h -- Specify host
+-p -- Port
+CONFIG GET databases -- List number of databases
+INFO keyspaces -- Display how many keys are present
+KEYS * -- See all keys
+GET [key name] -- Display key file info
+
+e.g.
+redic-cli -h XX.XX.XX.XX -p XXXX

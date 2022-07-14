@@ -1,0 +1,7 @@
+responder -I tun0 
+
+-A -- Analyse not poison
+
+responder -I eth0 -w -r -f
+or
+responder -I eth0 -wrf

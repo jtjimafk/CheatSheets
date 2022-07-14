@@ -1,0 +1,8 @@
+ftp XX.XX.XX.XX -- FTP to a server
+anonymous -- Anonymous Login
+
+230 = Login Successful
+
+get -- download file
+put -- upload file
+ls -- list files

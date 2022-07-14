@@ -1,0 +1,1 @@
+evil-winrm -i XX.XX.XX.XX -u [username] -p [password]
